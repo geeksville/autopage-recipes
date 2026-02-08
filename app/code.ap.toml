@@ -26,17 +26,17 @@ bottom = "Pause"
 actions = [ { type = "F4" } ]
 
 [[button]]
-icon = "step_over"
+icon = "arrow_forward"
 bottom = "Step"
 actions = [ { type = "F8" } ]
 
 [[button]]
-icon = "step_into"
+icon = "arrow_downward"
 bottom = "Step in"
 actions = [ { type = "F11" } ]
 
 [[button]]
-icon = "step_out"
+icon = "arrow_upward"
 bottom = "Step out"
 actions = [ { type = "Shift+F8" } ]
 
