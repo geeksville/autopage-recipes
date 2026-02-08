@@ -1,0 +1,5 @@
+[repo]
+kind = "std-recipe"
+
+[[repo-ref]]
+dir = "app/code.ap.toml"
