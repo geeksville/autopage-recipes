@@ -2,31 +2,32 @@
 class = "org.gnome.Ptyxis"
 
 [default]
-background = "green" 
-
-[[button]]
-icon = "content_copy"
-bottom = "Copy"
-actions = [ { type = "+Copy" } ]
-backround = "blue"
-
-[[button]]
-icon = "content_cut"
-bottom = "Cut"
-actions = [ { type = "+Cut" } ]
-backround = "blue"
-
-[[button]]
-icon = "content_paste"
-bottom = "Paste"
-actions = [ { type = "+Paste" } ]
-backround = "blue"
+background = "Cyan" 
+size = 0.75
 
 [[button]]
 icon = "fullscreen"
 bottom = "Fullscreen"
 actions = [ { type = "+F11" } ]
-backround = "blue"
+background = "blue"
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "+Copy" } ]
+background = "blue"
+
+[[button]]
+icon = "content_cut"
+bottom = "Cut"
+actions = [ { type = "+Cut" } ]
+background = "blue"
+
+[[button]]
+icon = "content_paste"
+bottom = "Paste"
+actions = [ { type = "+Paste" } ]
+background = "blue"
 
 [[button]]
 icon = "add_to_photos"

@@ -2,13 +2,14 @@
 class = "OxygenNotIncluded"
 
 [default]
-background = "green" 
+background = "magenta" 
+size = 0.75
 
 [[button]]
 icon = "fullscreen"
 bottom = "Fullscreen"
 actions = [ { type = "+F11" } ]
-backround = "blue"
+background = "blue"
 
 [[button]]
 icon = "content_copy"
