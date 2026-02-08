@@ -2,8 +2,25 @@
 class = "code"
 
 [default]
-# Defaults values for buttons that don't specify them explicitly
 background = "green" # Greenish
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "+Copy" } ]
+backround = "blue"
+
+[[button]]
+icon = "content_cut"
+bottom = "Cut"
+actions = [ { type = "+Cut" } ]
+backround = "blue"
+
+[[button]]
+icon = "content_paste"
+bottom = "Paste"
+actions = [ { type = "+Paste" } ]
+backround = "blue"
 
 [[button]]
 icon = "code"
@@ -18,22 +35,22 @@ actions = [ { type = "Ctrl+Shift+`" } ]
 [[button]]
 icon = "start"
 bottom = "Run"
-actions = [ { type = "F5" } ]
+actions = [ { type = "+F5" } ]
 
 [[button]]
 icon = "pause"
 bottom = "Pause"
-actions = [ { type = "F4" } ]
+actions = [ { type = "+F4" } ]
 
 [[button]]
 icon = "arrow_forward"
 bottom = "Step"
-actions = [ { type = "F8" } ]
+actions = [ { type = "+F8" } ]
 
 [[button]]
 icon = "arrow_downward"
 bottom = "Step in"
-actions = [ { type = "F11" } ]
+actions = [ { type = "+F11" } ]
 
 [[button]]
 icon = "arrow_upward"
@@ -49,6 +66,6 @@ actions = [ { type = "Ctrl+Shift+F5" } ]
 icon = "stop"
 bottom = "Stop"
 actions = [ { type = "Shift+F5" } ]
-background = "red" # Reddish
+background = "red"
 
 
