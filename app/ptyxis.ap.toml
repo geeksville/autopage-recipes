@@ -1,0 +1,52 @@
+[[match]]
+class = "org.gnome.Ptyxis"
+
+[default]
+background = "green" 
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "+Copy" } ]
+backround = "blue"
+
+[[button]]
+icon = "content_cut"
+bottom = "Cut"
+actions = [ { type = "+Cut" } ]
+backround = "blue"
+
+[[button]]
+icon = "content_paste"
+bottom = "Paste"
+actions = [ { type = "+Paste" } ]
+backround = "blue"
+
+[[button]]
+icon = "fullscreen"
+bottom = "Fullscreen"
+actions = [ { type = "+F11" } ]
+backround = "blue"
+
+[[button]]
+icon = "add_to_photos"
+bottom = "New Tab"
+actions = [ { type = "Ctrl+Shift+T" } ]
+
+[[button]]
+icon = "arrow_back"
+bottom = "Previous Tab"
+actions = [ { type = "Ctrl+PageUp" } ]
+
+[[button]]
+icon = "arrow_forward"
+bottom = "Next Tab"
+actions = [ { type = "Ctrl+PageDown" } ]
+
+[[button]]
+icon = "stop"
+bottom = "Break"
+actions = [ { type = "Ctrl+C" } ]
+background = "red"
+
+

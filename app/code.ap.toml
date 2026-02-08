@@ -23,6 +23,12 @@ actions = [ { type = "+Paste" } ]
 backround = "blue"
 
 [[button]]
+icon = "fullscreen"
+bottom = "Fullscreen"
+actions = [ { type = "+F11" } ]
+backround = "blue"
+
+[[button]]
 icon = "code"
 bottom = "Cmd"
 actions = [ { type = "Ctrl+Shift+P" } ]

@@ -3,3 +3,9 @@ kind = "std-recipe"
 
 [[repo-ref]]
 dir = "app/code.ap.toml"
+
+[[repo-ref]]
+dir = "app/ptyxis.ap.toml"
+
+[[repo-ref]]
+dir = "game/oni.ap.toml"

@@ -1,0 +1,46 @@
+[[match]]
+class = "OxygenNotIncluded"
+
+[default]
+background = "green" 
+
+[[button]]
+icon = "fullscreen"
+bottom = "Fullscreen"
+actions = [ { type = "+F11" } ]
+backround = "blue"
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "b" } ]
+
+[[button]]
+icon = "construction"
+bottom = "Dig"
+actions = [ { type = "g" } ]
+
+[[button]]
+icon = "cleaning_services"
+bottom = "Mop"
+actions = [ { type = "m" } ]
+
+[[button]]
+icon = "clear"
+bottom = "Clear"
+actions = [ { type = "k" } ]
+
+[[button]]
+icon = "speed"
+bottom = "Speed"
+actions = [ { type = "+Tab" } ]
+
+[[button]]
+icon = "home"
+bottom = "Home"
+actions = [ { type = "h" } ]
+
+[[button]]
+icon = "pause"
+bottom = "Pause"
+actions = [ { type = "+Space" } ]
