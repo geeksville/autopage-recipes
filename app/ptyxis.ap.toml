@@ -36,12 +36,14 @@ actions = [ { type = "Ctrl+Shift+T" } ]
 
 [[button]]
 icon = "arrow_back"
-bottom = "Previous Tab"
+top = "Previous"
+bottom = "Tab"
 actions = [ { type = "Ctrl+PageUp" } ]
 
 [[button]]
 icon = "arrow_forward"
-bottom = "Next Tab"
+top = "Next"
+bottom = "Tab"
 actions = [ { type = "Ctrl+PageDown" } ]
 
 [[button]]

@@ -8,4 +8,10 @@ dir = "app/code.ap.toml"
 dir = "app/ptyxis.ap.toml"
 
 [[repo-ref]]
+dir = "app/dolphin.ap.toml"
+
+[[repo-ref]]
+dir = "app/chrome.ap.toml"
+
+[[repo-ref]]
 dir = "game/oni.ap.toml"

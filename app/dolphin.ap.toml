@@ -1,0 +1,58 @@
+[[match]]
+class = "org.kde.dolphin"
+
+[default]
+background = "Orchid" 
+size = 0.75
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "+Copy" } ]
+background = "blue"
+
+[[button]]
+icon = "content_cut"
+bottom = "Cut"
+actions = [ { type = "+Cut" } ]
+background = "blue"
+
+[[button]]
+icon = "content_paste"
+bottom = "Paste"
+actions = [ { type = "+Paste" } ]
+background = "blue"
+
+[[button]]
+icon = "place"
+bottom = "Places"
+actions = [ { type = "+F9" } ]
+background = "BlueViolet"
+
+[[button]]
+icon = "terminal"
+bottom = "Terminal"
+actions = [ { type = "+F4" } ]
+background = "BlueViolet"
+
+[[button]]
+icon = "info"
+bottom = "Info"
+actions = [ { type = "+F11" } ]
+background = "BlueViolet"
+
+[[button]]
+icon = "folder"
+bottom = "Folders"
+actions = [ { type = "+F7" } ]
+background = "BlueViolet"
+
+[[button]]
+icon = "home"
+bottom = "Home"
+actions = [ { type = "Alt+Home" } ]
+
+[[button]]
+icon = "arrow_upward"
+bottom = "Up"
+actions = [ { type = "Alt+Up" } ]

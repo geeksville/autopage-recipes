@@ -1,0 +1,64 @@
+[[match]]
+class = "google-chrome"
+
+[default]
+background = "SpringGreen" 
+size = 0.75
+
+[[button]]
+icon = "content_copy"
+bottom = "Copy"
+actions = [ { type = "+Copy" } ]
+background = "blue"
+
+[[button]]
+icon = "content_cut"
+bottom = "Cut"
+actions = [ { type = "+Cut" } ]
+background = "blue"
+
+[[button]]
+icon = "content_paste"
+bottom = "Paste"
+actions = [ { type = "+Paste" } ]
+background = "blue"
+
+[[button]]
+icon = "home"
+bottom = "Home"
+actions = [ { type = "Alt+Home" } ]
+
+[[button]]
+icon = "tab"
+bottom = "New Tab"
+actions = [ { type = "Ctrl+T" } ]
+
+[[button]]
+icon = "open_in_new"
+bottom = "New Window"
+actions = [ { type = "Ctrl+N" } ]
+
+[[button]]
+icon = "visibility_off"
+bottom = "Incognito"
+actions = [ { type = "Shift+Ctrl+N" } ]
+
+[[button]]
+icon = "arrow_back"
+bottom = "Back"
+actions = [ { type = "Alt+Left" } ]
+
+[[button]]
+icon = "arrow_forward"
+bottom = "Forward"
+actions = [ { type = "Alt+Right" } ]
+
+[[button]]
+icon = "zoom_in"
+bottom = "Zoom In"
+actions = [ { type = "Ctrl+Plus" } ]
+
+[[button]]
+icon = "zoom_out"
+bottom = "Zoom Out"
+actions = [ { type = "Ctrl+Minus" } ]
