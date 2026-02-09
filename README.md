@@ -38,3 +38,5 @@ If you want to create a new recipe, the recommended steps are:
 * Once you are happy with it, copy it into this repo and edit the root [ap.toml](ap.toml) file to include it in the repo.
 * Send in a [pull-request](https://github.com/geeksville/autopage-recipes/pulls).
 * Bask in your sense of accomplishment.
+
+Copyright 2026 Kevin Hester, kevinh@geeksville.com.  [LGPL v3 license](LICENSE.md).
