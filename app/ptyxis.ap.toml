@@ -14,19 +14,13 @@ background = "blue"
 [[button]]
 icon = "content_copy"
 bottom = "Copy"
-actions = [ { type = "+Copy" } ]
-background = "blue"
-
-[[button]]
-icon = "content_cut"
-bottom = "Cut"
-actions = [ { type = "+Cut" } ]
+actions = [ { type = "Shift+Ctrl+C" } ]
 background = "blue"
 
 [[button]]
 icon = "content_paste"
 bottom = "Paste"
-actions = [ { type = "+Paste" } ]
+actions = [ { type = "Shift+Ctrl+V" } ]
 background = "blue"
 
 [[button]]
